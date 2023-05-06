@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Poppins&display=swap');
+* {
+/* margin: 0; */
+/* padding: 0; */
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body {
+background: #1f242d;
+color: #fff;
+}
+a:last-of-type{    
+    text-align: center;                     
+padding: 17px 28px;
+background: #0ef;
+border-radius: 40px;
+box-shadow:0 0 10px #0ef;
+font-size: 16px;
+color: #1f242d;
+letter-spacing: 1px;
+text-decoration: none;
+font-weight: 600;
+}
+
+#contact{
+background: red;
+border-radius:90px;
+box-shadow: 0 0 50px red;
+transition-duration: 1s;
+}
+
+#contact:hover{
+    box-shadow: 0 0 50px yellow;
+    color: white;
+}
+
+/* div:last-of-type{   
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: -200px;
+} */
